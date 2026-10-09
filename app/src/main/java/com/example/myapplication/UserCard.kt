@@ -72,6 +72,12 @@ fun UserCard(
                         color = colorResource(id = hpColor)
                     )
                 }
+                Text(
+                    text = stringResource(alamat),
+                    fontSize = 13.sp,
+                    color = colorResource(id = alamatColor)
+                )
+            }
 
         }
     }
