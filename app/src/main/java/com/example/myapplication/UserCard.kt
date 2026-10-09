@@ -41,6 +41,12 @@ fun UserCard(
         colors = CardDefaults.cardColors(
             containerColor = colorResource(id = bgColor)
         )
-    )
+    ) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 8.dp, vertical = 6.dp)
+        )
     }
 }
