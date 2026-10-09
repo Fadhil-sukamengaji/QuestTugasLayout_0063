@@ -46,6 +46,16 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             alamatColor = R.color.text_yellow
         )
 
+        UserCard(
+            bgColor = R.color.card_1_bg,
+            nama = R.string.nama_2,
+            hp = R.string.hp_2,
+            alamat = R.string.alamat_2,
+            hpColor = R.color.text_cyan,
+            alamatColor = R.color.text_yellow
+        )
+
+
 
     }
 }
