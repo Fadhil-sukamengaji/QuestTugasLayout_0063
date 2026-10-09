@@ -78,7 +78,11 @@ fun UserCard(
                     color = colorResource(id = alamatColor)
                 )
             }
-
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier.size(50.dp)
+            )
         }
     }
 }
