@@ -37,6 +37,15 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         )
         Spacer(modifier = Modifier.height(15.dp))
 
+        UserCard(
+            bgColor = R.color.card_0_bg,
+            nama = R.string.nama_1,
+            hp = null,
+            alamat = R.string.alamat_1,
+            fontFamily = FontFamily.Cursive,
+            alamatColor = R.color.text_yellow
+        )
+
 
     }
 }
