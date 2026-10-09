@@ -57,7 +57,22 @@ fun UserCard(
                 modifier = Modifier
                     .weight(1f)
                     .padding(horizontal = 8.dp)
-            )
+            ){
+                Text(
+                    text = stringResource(nama),
+                    fontSize = 18.sp,
+                    fontFamily = fontFamily,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White
+                )
+                if (hp != null) {
+                    Text(
+                        text = stringResource(hp),
+                        fontSize = 13.sp,
+                        color = colorResource(id = hpColor)
+                    )
+                }
+
         }
     }
 }
