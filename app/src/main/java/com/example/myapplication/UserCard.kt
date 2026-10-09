@@ -31,4 +31,8 @@ fun UserCard(
     fontFamily: FontFamily = FontFamily.Default,
     hpColor: Int = R.color.text_white,
     alamatColor: Int = R.color.text_white
-)
+){
+    val gambar = painterResource(id = R.drawable.logo_umy)
+
+
+}
