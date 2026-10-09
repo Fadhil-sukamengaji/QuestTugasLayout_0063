@@ -34,5 +34,13 @@ fun UserCard(
 ){
     val gambar = painterResource(id = R.drawable.logo_umy)
 
-
+    Card(
+        modifier = Modifier
+            .fillMaxWidth(fraction = 1f)
+            .padding(horizontal = 12.dp, vertical = 4.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(id = bgColor)
+        )
+    )
+    }
 }
